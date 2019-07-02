@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let timkiem = prompt("");
+    let TiengAnh = ["cat", "house", "hi", "friend", "dog"];
+    let TiengViet = ["con meo", "ngoi nha","xin chao", "ban be", "con cho"];
+    let i;
+    for ( i = 0; i < TiengAnh.length; i++) {
+        if (timkiem == TiengAnh[i]) {
+           alert(TiengViet[i]);
+           break;
+        } else if (timkiem == TiengViet[i]) {
+            alert(TiengAnh[i]);
+            break;
+        }
+    }if (timkiem!==TiengAnh[i]){
+        alert("khong tim thay ket qua");
+
+    }
+
+
+
+</script>
+
+</body>
+</html>
